@@ -30,14 +30,14 @@ with open('README.rst', 'r') as f:
     long_description = f.read()
 
 setup(
-    name='python-rofi',
-    description='Create simple GUIs using the Rofi application',
+    name='papis-python-rofi',
+    description='Create simple GUIs using the Rofi application (fork for papis)',
     long_description=long_description,
     version='1.0.1',
     author='Blair Bonnett',
     author_email='blair.bonnett@gmail.com',
     license='MIT',
-    url='https://github.com/bcbnz/python-rofi',
+    url='https://github.com/alejandrogallo/python-rofi',
     zip_safe=True,
     classifiers=[
         'License :: OSI Approved :: MIT License',
