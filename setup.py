@@ -33,7 +33,7 @@ setup(
     name='papis-python-rofi',
     description='Create simple GUIs using the Rofi application (fork for papis)',
     long_description=long_description,
-    version='1.0.1',
+    version='1.0.2',
     author='Blair Bonnett',
     author_email='blair.bonnett@gmail.com',
     license='MIT',
