@@ -73,7 +73,7 @@ class Rofi(object):
 
     """
     def __init__(self, lines=None, fixed_lines=None, width=None,
-                 fullscreen=None, location=None,
+                 fullscreen=None, location=None, theme=None,
                  exit_hotkeys=('Alt+F4', 'Control+q')):
         """
         Parameters
@@ -104,6 +104,8 @@ class Rofi(object):
             If True, use the full height and width of the screen.
         location: integer
             The position of the window on the screen.
+        theme: string
+            Path to the rofi theme file.
 
         """
         # The Popen class returned for any non-blocking windows.
@@ -115,6 +117,7 @@ class Rofi(object):
         self.width = width
         self.fullscreen = fullscreen
         self.location = location
+        self.theme = theme
         self.exit_hotkeys = exit_hotkeys
 
         # Don't want a window left on the screen if we exit unexpectedly
@@ -281,6 +284,11 @@ class Rofi(object):
         location = kwargs.get('location', self.location)
         if location is not None:
             args.extend(['-location', str(location)])
+
+        # Theme
+        theme = kwargs.get('theme', self.theme)
+        if theme is not None:
+            args.extend(['-theme', str(theme)])
 
         # eh row width in char
         eh = kwargs.get('eh', 1)

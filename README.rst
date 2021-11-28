@@ -171,6 +171,8 @@ documentation for full details of these parameters.
 
 * ``location``:  The position of the window on the screen.
 
+* ``theme``:  The rofi theme.
+
 
 Requirements
 ============
