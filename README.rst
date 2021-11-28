@@ -2,12 +2,8 @@
 python-rofi
 ===========
 
-.. raw:: html
-
-  <a href="https://badge.fury.io/py/papis-python-rofi">
-    <img src="https://badge.fury.io/py/papis-python-rofi.svg"
-       alt="PyPI version" height="18">
-  </a>
+.. image:: https://badge.fury.io/py/papis-python-rofi.svg
+  :target: https://badge.fury.io/py/papis-python-rofi
 
 A Python module to make simple GUIs using Rofi.
 

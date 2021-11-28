@@ -26,13 +26,10 @@
 
 from setuptools import setup
 
-with open('README.rst', 'r') as f:
-    long_description = f.read()
 
 setup(
     name='papis-python-rofi',
     description='Create simple GUIs using the Rofi application (fork for papis)',
-    long_description=long_description,
     version='1.0.3',
     author='Blair Bonnett',
     author_email='blair.bonnett@gmail.com',
