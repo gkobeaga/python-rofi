@@ -16,13 +16,7 @@ What is Rofi?
 =============
 
 Rofi_ is a popup window switcher with minimal dependencies. Its basic operation
-is to display a list of options and let the user pick one. The following
-screenshot is shamelessly hotlinked from the Rofi website (which you should
-probably visit if you want actual details about Rofi!) and shows it being used
-by the teiler_ screenshot application.
-
-.. image:: https://davedavenport.github.io/rofi/images/rofi/dmenu-replacement.png
-   :alt: A screenshot of the teiler application using Rofi.
+is to display a list of options and let the user pick one.
 
 .. _Rofi: https://davedavenport.github.io/rofi/
 
@@ -203,5 +197,5 @@ Bug reports
 The project is developed on GitHub_. Please file any bug reports or feature
 requests on the Issues_ page there.
 
-.. _GitHub: https://github.com/bcbnz/python-rofi
-.. _Issues: https://github.com/bcbnz/python-rofi/issues
+.. _GitHub: https://github.com/papis/python-rofi
+.. _Issues: https://github.com/papis/python-rofi/issues
